@@ -1,14 +1,14 @@
 from playwright.sync_api import Page, expect
 
 
-class loginPage:
-    def __init__(self, page: Page):
-        self.page = page
-        self.username_input = page.locator("#user-name")
-        self.password_input = page.locator("#password")
-        self.login_button = page.locator("#login-button")
-        self.error_message_label = page.locator("[data-test='error']")
-        self.url = "https://www.saucedemo.com/v1/index.html"
+# class loginPage:
+#     def __init__(self, page: Page):
+#         self.page = page
+#         self.username_input = page.locator("#user-name")
+#         self.password_input = page.locator("#password")
+#         self.login_button = page.locator("#login-button")
+#         self.error_message_label = page.locator("[data-test='error']")
+#         self.url = "https://www.saucedemo.com/v1/index.html"
 
 
     def load(self):
